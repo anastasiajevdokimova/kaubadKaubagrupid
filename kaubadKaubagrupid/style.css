@@ -1,0 +1,343 @@
+/*LOGIMISVORM CSS*/
+
+.login_body {
+    background-image: url("https://us.123rf.com/450wm/nataliiavolyk/nataliiavolyk1902/nataliiavolyk190200078/117258098-seamless-pattern-with-yellow-duck-isolated-on-blue-background.jpg?ver=6");
+    align-items: center;
+    /*background-color: #000;*/
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.loginvorm {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 20px;
+    width: 320px;
+}
+
+.login_title {
+    color: #eee;
+    font-family: cursive;
+    font-size: 33px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.login_subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.ilogin {
+    margin-top: 40px;
+}
+
+.ipass {
+    margin-top: 30px;
+}
+
+.input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+.input[type="text"]:hover, .input[type="password"]:hover {
+    border-color: #f3de0a;
+}
+.input[type="text"]:focus, .input[type="password"]:focus {
+    box-shadow: 0 0 0 2px rgb(255, 240, 54);
+    border-color: #f3de0a;
+}
+
+.login_submit {
+    background-color: #78cafc;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #15172b;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+// outline: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.login_submit:active {
+    background-color: #06b;
+}
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,
+html {
+    font-size: 16px;
+}
+body {
+    background-image: url("https://blog.pixlr.com/wp-content/uploads/2019/03/stars-pattern.png");
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
+    color: #333;
+}
+.container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+h1{
+    font-family: fantasy;
+    padding-top: 50px;
+}
+.header {
+    background-image: linear-gradient(to right, #fcf6cf, #fefefe);
+    font-family: cursive;
+    font-size: 20px;
+    color: #2d254f;
+    height: 60%;
+}
+.main {
+    padding: 40px 0;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table td, table th{
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #d2e7f1;
+}
+table tr:nth-child(odd){
+    background-color: #e9f6fd;
+}
+
+table tr:hover{
+    background-color: #b4cddc;
+}
+
+table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1c2c56;
+    color: white;
+}
+
+.lisamisvorm{
+    color: #fcf6cf;
+    border-radius: 20px;
+    margin-right: 70px;
+    padding: 50px;
+    box-sizing: border-box;
+    height: 300px;
+    width: 320px;
+}
+.lisamisvorm input[type="text"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: unset;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #bbc1e1;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.editform input[type="text"]{
+    border-radius: 7px;
+    padding: 8px 10px;
+    cursor: pointer;
+    border: 0.1rem solid #bbc1e1;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.search{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    vertical-align: unset;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #bbc1e1;
+    background: #fff;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.lisamisvorm input[type="text"]:hover, .lisamisvorm select:hover, .search, .editform input[type="text"]:hover, .editform select:hover {
+    border-color: #fcf6cf;
+}
+.lisamisvorm input[type="text"]:focus, .lisamisvorm select:focus, .search, .editform input[type="text"]:hover, .editform select:focus {
+    box-shadow: 0 0 0 2px rgb(248, 231, 61);
+    border-color: #fcf6cf;
+}
+.lisamisvorm input[type="text"]:disabled, .lisamisvorm select:disabled, .search, .editform input[type="text"]:disabled. .editform select:disabled {
+    background: #f6f8ff;
+    cursor: not-allowed;
+    opacity: 0.9;
+    border-color: #bbc1e1;
+}
+.lisamisvorm select, .editform select {
+    position: relative;
+    display: inline-block;
+    user-select: none;
+    border-radius: 7px;
+    padding: 8px 10px;
+}
+
+.lisamisvorm input[type="submit"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: unset;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #fcf6cf;
+    background: #fcf6cf;
+    color: #2b3d6b;
+    font-family: sans-serif;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.editform input[type="submit"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 7px;
+    padding: 8px 10px;
+    outline: none;
+    margin: 0;
+    cursor: pointer;
+    border: 0.1rem solid #fcf6cf;
+    background: #fcf6cf;
+    color: #2b3d6b;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: sans-serif;
+}
+.lisamisvorm input[type="submit"]:hover, .editform input[type="submit"]:hover {
+    border-color: #fcf6cf;
+}
+.lisamisvorm input[type="submit"]:focus, .editform input[type="submit"]:hover {
+    box-shadow: 0 0 0 3px rgb(248, 231, 61);
+    border-color: #fcf6cf;
+}
+.lisamisvorm input[type="submit"]:disabled, .editform input[type="submit"]:disabled {
+    background: #f6f8ff;
+    cursor: not-allowed;
+    opacity: 0.9;
+    border-color: #fcf6cf;
+}
+.logivalja input[type="submit"]{
+    background-color: #2b3d6b;
+    border-radius: 12px;
+    border: 0;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+// outline: 0;
+    text-align: center;
+}
+
+.logivalja input[type="submit"]:active{
+    background-color: #f1eaa0;
+}
+
+.container:last-child {
+    display: flex;
+}
+
+.link:link{
+    color: #f1eaa0;
+}
+.link:visited{
+    color: #f1eaa0;
+}
+.link:hover{
+    color: #ffffff;
+}
+.link:active{
+    color: #ffffff;
+}
+.deleteBtn,
+.editBtn,
+.cancelBtn,
+.saveBtn {
+    text-decoration: none;
+    margin-right: 5px;
+}
+.deleteBtn,
+.cancelBtn {
+    color: red;
+    margin-left: 20px;
+}
+.editBtn {
+    color: #333;
+}
+.saveBtn {
+    color: green;
+}
+
+.error{
+    color: white;
+    background-color: #800606;
+}
